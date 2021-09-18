@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacion Tecnica</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>   
+    <div class="container">
+    
+    <!-- Main DOC -->
+        <main id="main-doc" class="main-doc">
+
+            <!-- borrar -->
+            <!-- <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quaerat, fugiat temporibus quam dicta inventore expedita a voluptatibus, officiis labore qui laborum suscipit rem maxime molestias praesentium fugit dignissimos repellat!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo unde reiciendis quas natus sed vel enim, ad placeat ratione eveniet. Adipisci, aliquid! Placeat iure laborum consequatur illo, ipsa totam inventore.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi blanditiis ducimus unde culpa, in quia incidunt ipsum aut laboriosam non commodi porro quas molestias expedita aspernatur obcaecati earum illum dolorem!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ea fugiat natus quod. Culpa, omnis quos possimus, excepturi tempora sint explicabo alias exercitationem, aut facere sapiente vitae quaerat veniam eveniet.</p>
+                <h2 class="sticky-element-1">Introducion1 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repellat debitis quidem ad unde eaque sed, dolorum nobis rerum tempore id voluptates dicta quia doloremque ut laborum dolorem cupiditate commodi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quaerat, fugiat temporibus quam dicta inventore expedita a voluptatibus, officiis labore qui laborum suscipit rem maxime molestias praesentium fugit dignissimos repellat!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo unde reiciendis quas natus sed vel enim, ad placeat ratione eveniet. Adipisci, aliquid! Placeat iure laborum consequatur illo, ipsa totam inventore.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi blanditiis ducimus unde culpa, in quia incidunt ipsum aut laboriosam non commodi porro quas molestias expedita aspernatur obcaecati earum illum dolorem!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ea fugiat natus quod. Culpa, omnis quos possimus, excepturi tempora sint explicabo alias exercitationem, aut facere sapiente vitae quaerat veniam eveniet.</p>
+                <h2 class="sticky-element-1">Introducion2 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repellat debitis quidem ad unde eaque sed, dolorum nobis rerum tempore id voluptates dicta quia doloremque ut laborum dolorem cupiditate commodi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quaerat, fugiat temporibus quam dicta inventore expedita a voluptatibus, officiis labore qui laborum suscipit rem maxime molestias praesentium fugit dignissimos repellat!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo unde reiciendis quas natus sed vel enim, ad placeat ratione eveniet. Adipisci, aliquid! Placeat iure laborum consequatur illo, ipsa totam inventore.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi blanditiis ducimus unde culpa, in quia incidunt ipsum aut laboriosam non commodi porro quas molestias expedita aspernatur obcaecati earum illum dolorem!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ea fugiat natus quod. Culpa, omnis quos possimus, excepturi tempora sint explicabo alias exercitationem, aut facere sapiente vitae quaerat veniam eveniet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repellat debitis quidem ad unde eaque sed, dolorum nobis rerum tempore id voluptates dicta quia doloremque ut laborum dolorem cupiditate commodi?</p>
+            </div> -->
+            <!-- borrar -->
+            
+            <section class="main-section" id="Introducion">
+                <header class="sticky-element-1">Introducion</header>
+                <p>
+                    Este documento no esta pensado como tutorial sino como un guía de referencia para recordar cómo se hacen o dónde buscar la información.
+                </p>
+                <p>
+                    Se origina como tarea para lograr la certificación de CSS en https://www.freecodecamp.org/ y tiene diferentes fuentes y referencias:
+                </p>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=OWKXEJN67FE" target="_blanck">
+                        Curso en YouTube de CSS - Soy Dalton. 
+                    </a></li>
+                    <li><a href="https://www.freecodecamp.org/">www.freecodecamp.org</a></li>
+                    <li><a href="https://goalkicker.com/CSSBook">
+                        CSS notas para profesionales.
+                    </a></li>
+                    
+                </ul>
+            </section>
+
+            <section class="main-section" id="Formas_para_vincular_CCS_al_HTML">
+                <header class="sticky-element-1">Formas para vincular CCS al HTML</header>
+                <p>
+                    CCS (Cascading Style Sheets) le dice al navegador como mostrar el texto y las etiquetas de HTML. Con CSS puedes controlar las propiedades y aspectos como el color, ubicación, tamaño, entre otros.
+                </p>
+                <ul>
+                    <li>Usando documento externo:</li>
+                    <ul>
+                        <li>Usando la etiqueta <span class="code-inline"> &ltlink rel="stylesheet" href="style.css"&gt</span>.<br> </li>
+                        <li>Usando la regla <span>@import</span>. </li>
+                    </ul>
+                    <li>Dentro del HTML:</li>
+                    <ul>
+                        <li>Usando la etiqueta o tag (en ingles): <span class="code-inline">&ltstyle&gt ... &lt/style&gt</span>.</li>
+                        <li>Estilo en-linea (Inline Style).</li>
+                    </ul>
+                    <li>Usando JavaScript.</li>
+                </ul>
+            </section>
+        
+
+            <section class="main-section" id="Usando_documento_externo">
+                <header class="sticky-element-1">Usando documento externo</header>
+                <p>Un documento CSS externo puede ser aplicado a varios HTML y puede ser implementado de dos formas:</p>
+                <ul>
+                    <li>Usando la etiqueta <span class="code-inline">&lttag&gt&lt/tag&gt</span>. Como por ejemplo:</li>
+                    <h4>Hellow-word.html</h4>
+                    <pre><code>
+    &lt!DOCTYPE html&gt
+    &lthtml&gt 
+        &lthead&gt
+            &ltmeta charset="utf-8" /&gt 
+            &ltlink rel="stylesheet" type="text/css" href="style.css"&gt 
+        &lt/head&gt
+        &ltbody&gt
+            &lth1&gtHello world!&lt/h1&gt 
+            &ltp&gtI ♥ CSS&lt/p&gt 
+        &lt/body&gt 
+    &lt/html&gt 
+
+                        </code>
+                    </pre>
+                    <h4>style.css</h4>
+                    <pre><code>
+    h1 {
+        color: green; 
+        text-decoration: underline; 
+    } 
+    p {
+        font-size: 25px;
+        font-family: 'Trebuchet MS', sans-serif; 
+    } </code></pre>
+                    <li>Usando la regla <span class="code-inline">@import</span>. Esta etiqueta tiene que preceder todas las otras reglas, excepto <span class="code-inline">@charset</span>, y <span class="code-inline">@import</span> no puede ser usado en condicionales. Esto, usualmente, es usado para importar estilos o tipos o fuentes de letras, como por ejemplo:</li>
+                    <pre><code>@import 'https://fonts.googleapis.com/css?family=Lato';</code></pre>
+                    <p>Otro ejemplo:</p>
+                    <pre><code>
+    &ltstyle&gt 
+        @import url('/css/styles.css');
+    &lt/style&gt 
+                    </code></pre>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Dentro_del_HTML">
+                <header class="sticky-element-1">Dentro del HTML</header>
+                <ul>
+                    <li><p>Usando la etiqueta (tag) <span class="code-inline">&ltstyle&gt&lt/style&gt</span> dentro del HTML funciona igual que en los documentos externos, con la única diferencia que al estar dentro de HTML no puede ser usado por otro HTML.</p>
+                        <p>Suele estar en la sección <span class="code-inline">&lthead&gt</span>, pero puede estar en cualquier parte del HTML, pero lo recomendado es en la cabecera, como por ejemplo:</p>
+        
+                        <pre><code>
+    &lthead&gt
+        &ltstyle&gt
+            h1 {
+            color: green;
+            text-decoration: underline;
+            }
+
+            p{
+                font-size: 25px;
+                font-family: 'Trebuchet MS', sans-serif; 
+            }
+        &lt/style&gt
+    &lt/head&gt
+    &ltbody&gt
+        &lth1&gtHello world!&lt/h1&gt 
+        &ltp&gtI ♥ CSS&lt/p&gt 
+    &lt/body&gt 
+        
+                        </code></pre></li>
+                    <li>
+                        <p>Los estilo en-linea (Inline Style) se usan o aplican directamente en el elemento, pero esto no es una practica recomendada, pues cualquier cambio que se necesite hacer tienes que recorrer todo el HTML para ubicar y cambiar.</p>
+                        <p>Aquí un ejemplo:</p>
+                        <pre><code>
+    &lth1 style="     color: green; 
+                    text-decoration: underline;"&gt
+        Hello world!
+    &lt/h1&gt 
+
+    &ltp style="font-size: 25px; 
+                font-family: 'Trebuchet MS';"&gt
+        I ♥ CSS
+    &lt/p&gt
+                        </code></pre>
+                    </li>
+                </ul>
+            </section>
+    
+
+            <section class="main-section" id="Usando_JavaScript">
+                <header class="sticky-element-1">Usando JavaScript</header>
+                <p>Es posible agregar, borrar o cambiar las propiedades de CSS con JS, como por ejemplo:</p>
+                <pre><code>
+    var el = document.getElementById("element"); 
+    el.style.opacity = 0.5;
+    el.style.fontFamily = 'sans-serif'; 
+                </code></pre>
+
+                <p>Nota que la propiedad es nombrada usando “lower camel case” (https://es.wikipedia.org/wiki/Camel_case). En el ejemplo se puede ver la propiedad “font-famify” , en JS se usa fontFamily.</p>
+                <p>Adicionalmente, se pueden utilizar librerías externas con JQUERY, entre otras.</p>
+            </section>
+            <div class="espacio-final"></div>
+        </main>
+        <!-- FIn DE MAIN-DOC -->
+        
+        <!-- Barra de navegacion -->
+        <nav id="navbar" class="navbar">
+            <div class="header-container">
+                <header>CSS Tutorial</header>
+            </div> 
+            <div class="ul-container sticky-element">
+                <ul class="">
+                    <li><a href="#Introducion" class="nav-link">
+                        Introducion
+                    </a></li>
+                    <li><a href="#Formas_para_vincular_CCS_al_HTML" class="nav-link">
+                        Formas para vincular CCS al HTML
+                    </a></li>
+                    <ul>
+                        <li><a href="#Usando_documento_externo" class="nav-link">
+                            Usando documento externo
+                        </a></li>
+                        <li><a href="#Dentro_del_HTML" class="nav-link">
+                            Dentro del HTML
+                        </a></li>
+                        <li><a href="#Usando_JavaScript" class="nav-link">
+                            Usando JavaScript
+                        </a></li>
+                    </ul>
+    
+                </ul>
+            </div>
+
+        </nav>
+
+        
+
+        <!-- Fin de Barra de navegacion -->
+
+    </div> <!-- FIN DE CONTAINER  -->
+    
+    <script src="src/script.js"></script>
+</body>
+</html>

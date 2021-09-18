@@ -1,6 +1,6 @@
 # Paguina de formato de encusta (Documentation).
 
-Paguina realizada para el curso responsive web design de www.freecodecamp.com, Technical Documentation o documentacion tecnica. Se puede visualizar en: 
+Paguina realizada para el curso responsive web design de www.freecodecamp.com, Technical Documentation o documentacion tecnica. Se puede visualizar en:  https://alejandrorodrigueza.github.io/freecodecamp-technicalDocumentation/
 
 ## Criterios de la evaluacion:
 
